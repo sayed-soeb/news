@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .daily-news-container {
+    width: 300px;
+    margin: 100px auto;
+    background: rgb(20, 93, 171);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .daily-news-title {
+    text-align: center;
+    color: #f2eeee;
+  }
+  
+  .daily-news-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .daily-news-label {
+    margin-bottom: 8px;
+    color: #f8eded;
+  }
+  
+  .daily-news-input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .daily-news-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .daily-news-button:hover {
+    background-color: #45a049;
+  }
+  
+  .toggle-form {
+    text-align: center;
+    color: #f9eded;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .toggle-form:hover {
+    color: #007bff; /* Change to your preferred color on hover */
+  }
+  
